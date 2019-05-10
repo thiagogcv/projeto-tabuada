@@ -106,6 +106,7 @@ footer {
     text-decoration: none;
 }
 
+/*Estilo do projeto Tabuada*/
 .content-tabuada{
     width: 100%;
     text-align: center;
@@ -121,18 +122,18 @@ footer {
 }
 
 .content-tabuada td{
-    padding: 10px;
+    padding: .5rem;
     border-top: 1px solid #ddd;
     
 }
 
-.content-tabuada tbody tr:nth-child(add){
-    background-color: rgba(0, 0, 0, 0.07);
+.content-tabuada tbody tr:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.10);
 
 }
 
 .content-tabuada tbody tr:hover{
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.17);
     cursor: pointer;
 
 }
@@ -140,6 +141,15 @@ footer {
 #valorA{
     width: 100%;
     padding: 10px;
+}
+
+h1{
+    text-align: center;
+
+}
+img{
+    width: 30px;
+    padding: 5px;
 }
 
 
