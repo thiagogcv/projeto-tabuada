@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #faeaea;
+    background-color: #fdefef;
 }
 
 .content-center{
@@ -105,3 +105,30 @@ footer {
     outline: none;
     text-decoration: none;
 }
+
+.content-tabuada{
+    width: 100%;
+    text-align: center;
+    max-width: 500px;
+    background: #fff;
+    margin: auto;
+    padding: 20px;
+}
+
+.content-tabuada table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content-tabuada td{
+    padding: .75em;
+    border-top: 1px solid #dddddd;
+    
+}
+
+.content-tabuada tbody tr:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.07)
+
+}
+
+
