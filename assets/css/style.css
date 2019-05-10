@@ -121,14 +121,25 @@ footer {
 }
 
 .content-tabuada td{
-    padding: .75em;
-    border-top: 1px solid #dddddd;
+    padding: 10px;
+    border-top: 1px solid #ddd;
     
 }
 
-.content-tabuada tbody tr:nth-child(odd){
-    background-color: rgba(0, 0, 0, 0.07)
+.content-tabuada tbody tr:nth-child(add){
+    background-color: rgba(0, 0, 0, 0.07);
 
+}
+
+.content-tabuada tbody tr:hover{
+    background-color: rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+
+}
+
+#valorA{
+    width: 100%;
+    padding: 10px;
 }
 
 
